@@ -50,7 +50,7 @@ public class CommandLineInterface {
             if (cmd.hasOption("league")) {
                 runner.setLeagueLevel(Integer.valueOf(cmd.getOptionValue("league")));
             } else {
-                runner.setLeagueLevel(4);
+                runner.setLeagueLevel(5);
             }
 
             Field getGameResult = GameRunner.class.getDeclaredField("gameResult");
